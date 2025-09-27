@@ -1,0 +1,423 @@
+nav{
+width:100%;
+height:200px ;  
+background-color:rgba(0, 0, 0, 0.39);  
+
+}
+
+nav ul li {
+list-style-type: none;
+}
+
+.b{
+background-color:rgba(250, 235, 215, 0.808) ;    
+}
+
+
+.c{
+color:white; 
+font-family: "Dancing Script", cursive;
+font-weight:40px ;
+}
+
+
+
+.f{
+font-size:50px ; 
+margin-left:150px ;  
+}
+
+.ml{
+margin-right: 20px;
+}
+
+
+
+nav ul li a:focus{
+active    
+}
+
+.g{
+background-color:white ;
+width:302px ;
+height:202px ;
+
+}
+
+.s{
+background-color: burlywood; 
+border-radius:20px ; 
+}
+
+.t{
+background-color:whitesmoke ;   
+
+outline:1px solid rgba(0, 217, 255, 0.863) ;
+}
+
+.align{
+color:white;    
+}
+
+
+  
+ 
+
+  
+.w{
+width:500px;
+height:100px ; 
+top:400px;
+position: absolute;
+}
+
+
+.sa{
+top:550px;
+position: absolute;    
+
+}
+
+.sa a i{
+color:white;    
+}
+
+.sa a{
+color:white;
+text-decoration: none; 
+left:10px;
+position: absolute;
+font-size: 25px;
+border:1px solid white;
+padding-inline:5px ;
+border-radius:10px ;
+transition:1s;
+}
+
+.sa a+a{
+left:100px;
+position: absolute;    
+
+}
+
+.sa a+a+a{
+left:200px;
+position: absolute;    
+ 
+}
+
+.sa a+a+a+a{
+left:300px;
+position: absolute;    
+
+}
+
+.sa a :hover{
+color:black;
+background-color: white;
+border:1px solid black;
+border-radius:10px ;
+transform: rotateX(180deg);
+transform: rotateY(180deg);
+}
+
+.e{
+font-size:30px ;
+color: black; 
+background-color: whitesmoke;
+padding-top:0px ;
+padding: 0px;
+height:50px;
+}
+
+section+div{
+margin-top:100px ;    
+}
+
+.p{
+font-size:30px ;
+color:white;
+background-color:black;
+padding-top:0px ;
+padding: 0px;
+height:50px ;
+}
+
+
+
+
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: 5;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+
+  .fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count:5 ;
+  }
+  @-webkit-keyframes fadeInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+
+
+.fg{
+width:300px;
+height:300px ;
+background-color:white ; 
+left:900px;
+position: absolute; 
+top:280px;
+border-radius:150px  ;
+
+}
+
+
+.sk{
+top:800px;
+position: absolute;
+text-transform: uppercase;
+ font-family: "Dancing Script", cursive;
+ left:580px;
+ font-weight:30px ;
+}
+
+
+.k{
+top:1000px;
+position: absolute;
+left:80px;  
+}
+
+.k img:hover{
+box-shadow:10px 10px 5px lightblue ;  
+transform:translate(50px);
+}
+
+
+.k img{
+border:5px solid lightskyblue;  
+}
+
+.d{
+left:520px;
+position: absolute;
+color:white ;  
+top:200px;
+
+}
+
+.y{
+font-family: "Dancing Script", cursive;
+font-size:50px ;
+}
+
+
+
+.bg{
+top:1400px;  
+left:80px;
+position: absolute;
+
+}
+
+.bg img{
+border:5px solid lightskyblue;  
+}
+
+
+.bg img:hover{
+box-shadow:10px 10px 5px lightblue ;  
+transform:translate(50px);
+} 
+
+
+.bg img{
+transition:1s ;  
+}
+
+
+.k img{
+transition:1s ;  
+}
+
+
+.op{
+left:600px;
+position: absolute;
+color:white ;  
+top:1600px;
+
+}
+
+.ja{
+font-family: "Dancing Script", cursive;
+font-size:50px ;
+}
+
+
+body{
+background-color:#020108 ;  
+}
+
+
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+     body { 
+       background: linear-gradient(-45deg, #020108,#0E0B35, #BD7FC6);
+      background-size: 2000% 2000%; 
+      
+       animation: gradientShift 15s ease infinite; 
+     }   
+    
+    
+
+
+  
+
+
+  @media(max-width:321px){
+ .w{
+ font-size:15px ; 
+ width:230px ;
+ top:580px;
+ left:40px;
+ }
+
+.sa a i{
+font-size:20px ;  
+
+}
+
+
+.sa a+a{
+left:90px;
+position: absolute;    
+
+}
+
+.sa a+a+a{
+left:140px;
+
+}
+
+.sa a+a+a+a{
+left:200px;
+position: absolute;    
+
+}
+
+.sa{
+top:820px;  
+}
+
+.sa a{
+
+left:30px;
+
+}
+
+
+.fg{
+left:60px;  
+width:200px;
+height:200px ;
+border-radius:50% ;
+top:350px;
+}
+
+.sk{
+left:90px;
+top:980px;  
+}
+
+
+.k img{
+height:100px ;  
+}
+
+.k{
+left:50px;
+top:1100px;  
+}
+
+.d{
+left:5px;
+position: absolute;  
+top:0px;
+font-size:20px ;
+}
+
+.y{
+top:100px;
+position: absolute;
+font-size: 40px;
+left:5px;  
+}
+
+
+
+  }
+
+
+
